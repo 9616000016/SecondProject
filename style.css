@@ -1,0 +1,277 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+    
+#left{
+    width: 70%;
+    height: 100%;
+    background-color: #ff636e;
+}
+
+#right{
+    width: 30%;
+    height: 100%;
+    background-color: #2096be;
+}
+
+#main2{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+#left2{
+    position: relative;
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1518477000106-4ed58200f28b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1011&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#right2{
+    position: absolute;
+    right: 0%;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+#left3{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    width: 70%;
+    height: 60%;
+    background-color: #52a3c2;
+    opacity: 20%;
+    border-top-left-radius: 10%;
+}
+
+#text {
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    z-index: 1;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#text h3{
+    position: absolute;
+    margin-top: 10%;
+    font-weight: lighter;
+    opacity: 70%;
+}
+
+#text h2{
+    position: absolute;
+    margin-top: 18%;
+    font-size: 35px;
+}
+
+#text2{
+    position: absolute;
+    margin-top: 40%;
+    width: 22%;
+    height: 34%;
+    background-color: #024865;
+    border: 2px solid #024865;
+    border-radius: 3%;
+    opacity: 60%;
+    
+}
+#text2 h4{
+    position: absolute;
+    top: 5%;
+    right: 25%;
+    letter-spacing: 1px;
+}
+
+#text2 i{
+    position: absolute;
+    left: 9%;
+    font-size: large;
+}
+
+#left3 h3{
+    position: absolute;
+    top: 38%;
+    left: 18%;
+    color: white;
+    font-weight: 700%;
+    z-index: 2;
+}
+
+#icons{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 420px;
+    bottom: 30%;
+    left: 20%;
+}
+
+#icons h4{
+    margin-right: 40px;
+}
+
+#nav{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 30%;
+    width: 70%;
+    height: 6%;
+    height: 28px;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid  rgb(218, 206, 206);
+}
+
+#nav a,i{
+    text-decoration: none;
+    color: #000;
+}
+
+#right2 #d{
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    top: 10.7%;
+    left: 15%;
+}
+
+#nav a span{
+    position: absolute;
+    top: 26%;
+}
+
+#right2 #img{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    width: 40%;
+    height: 45%;
+    background-image: url(https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=468&q=80);
+    background-position: center;
+}
+
+#right2 #img2{
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    width: 40%;
+    height: 45%;
+    background-image: url(https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    background-position: left top;
+}
+
+#right2 h5{
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid rgb(202, 200, 200);
+    border-radius: 10%;
+    font-weight:lighter ;
+}
+
+#right2 h5 span{
+    position: absolute;
+    top: 2%;
+    font-size: 120%;
+}
+
+#texttop #p{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    line-height: 24px;
+    font-weight: lighter;
+    color: rgba(207, 202, 202, 0.897);
+    font-size: 150%;
+    z-index: 3;
+}
+
+#texttop #t{
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    line-height: 24px;
+    font-weight: lighter;
+    color: rgba(207, 202, 202, 0.897);
+    font-size: 150%;
+    z-index: 3;
+}
+
+#circle{
+    position: absolute;
+    top: 3.6%;
+    left: 8%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #024865;
+    opacity: 60%;
+}
+
+#textcenter {
+    position: absolute;
+    top: 3%;
+    left: 50%;
+}
+
+#textcenter #c,#d,#e,#f{
+    font-weight: lighter;
+    color: rgba(231, 231, 231, 0.788);
+    line-height: 25px;
+}
+
+#nav2{
+    display: flex;
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    width: 100%;
+    height: 5%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    z-index: 9;
+}
+
+#nav2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+#main2 img{
+    position: absolute;
+    left: 48%;
+    transform: rotate(-10deg);
+    top: -7%;
+    height: 100px;
+    z-index: 88;
+}
